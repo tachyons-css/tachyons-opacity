@@ -1,0 +1,29 @@
+{
+  "name": "tachyons-opacity",
+  "description": "Tachyons CSS module for setting opacity",
+  "version": "1.0.0",
+  "author": {
+    "name": "mrmrs",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "style": "src/tachyons-opacity.css",
+  "files": [
+    "src",
+    "css"
+  ],
+  "keywords": [
+    "tachyons",
+    "tachyons-css",
+    "css",
+    "opacity"
+  ],
+  "repository": "tachyons-css/tachyons-opacity",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons-cli": "^0.3.0"
+  },
+  "scripts": {
+    "start": "tachyons src/tachyons-opacity.css > css/tachyons-opacity.css && tachyons src/tachyons-opacity.css --minify > css/tachyons-opacity.min.css && tachyons src/tachyons-opacity.css --generate-docs --package=../../package.json > readme.md"
+  }
+}
