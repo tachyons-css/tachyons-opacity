@@ -21,7 +21,7 @@
   "repository": "tachyons-css/tachyons-opacity",
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.0"
+    "tachyons-cli": "^0.3.3"
   },
   "scripts": {
     "start": "tachyons src/tachyons-opacity.css > css/tachyons-opacity.css && tachyons src/tachyons-opacity.css --minify > css/tachyons-opacity.min.css && tachyons src/tachyons-opacity.css --generate-docs --package=../../package.json > readme.md"
