@@ -4,7 +4,7 @@ Tachyons CSS module for setting opacity
 
 #### Stats
 
-119 | 12 | 12
+122 | 13 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -51,7 +51,7 @@ You can either cut and paste that css or link to it directly in your html.
 #### Development
 
 The source CSS files can be found in the `src` directory.
-Running `$ npm start` will process the source CSS and place the built in the `css` directory.
+Running `$ npm start` will process the source CSS and place the built CSS in the `css` directory.
 
 ## The CSS
 
@@ -73,6 +73,7 @@ Running `$ npm start` will process the source CSS and place the built in the `cs
 .o-10 { opacity: .1; }
 .o-05 { opacity: .05; }
 .o-025 { opacity: .025; }
+.o-0 { opacity: 0; }
 ```
 
 ## Contributing
