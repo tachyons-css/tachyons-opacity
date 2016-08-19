@@ -19,7 +19,7 @@
     "opacity"
   ],
   "repository": "tachyons-css/tachyons-opacity",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "tachyons-cli": "^0.6.1",
     "watch": "^0.19.1"
