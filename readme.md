@@ -1,10 +1,10 @@
-# tachyons-opacity 1.1.3
+# tachyons-opacity 1.1.4
 
 Tachyons CSS module for setting opacity
 
 #### Stats
 
-122 | 13 | 13
+167 | 13 | 13
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-opacity@1.1.3/css/tachyons-opacity.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-opacity@1.1.4/css/tachyons-opacity.min.css" />
 ```
 
 ##### Locally
@@ -76,7 +76,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ```css
 /*
 
-  Opacity
+    OPACITY
+    Docs: http://tachyons.io/docs/themes/opacity/
 
 */
 .o-100 { opacity: 1; }
